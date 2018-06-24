@@ -16,7 +16,7 @@ $ ./videos/live555MediaServer
 
 # Directory description 
 ## - videos
-- a directory to keep local videos. For this example, you'd need a video which has humans with frontal faces visible. An example video could be ["Obama out" speech](https://www.youtube.com/watch?v=NxFkEj7KPC0). Also, live media server works with many video formats but only '.webm' format has been tested(with OpenCV in this example). You may check other formats on the official website
+- a directory to keep local videos. For this example, you'd need a video which has humans with frontal faces visible. An example video could be ["Obama out" speech](https://www.youtube.com/watch?v=NxFkEj7KPC0). live media server works with many video formats but this code has been tested only on '.webm', '.ogg', and '.mpg' formats (with OpenCV(ver3.3) in this example). For more details, refer the official website
 
 ## - models
 - OpenCV's frontal face haar cascade detector
@@ -31,3 +31,4 @@ $ ./videos/live555MediaServer
 # Live Media Server
 - This is an open source video streamer which can stream locally stored video over rtsp
 - For more details, please refer to the official page: http://www.live555.com/mediaServer/
+
