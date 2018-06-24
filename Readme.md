@@ -32,3 +32,7 @@ $ ./videos/live555MediaServer
 - This is an open source video streamer which can stream locally stored video over rtsp
 - For more details, please refer to the official page: http://www.live555.com/mediaServer/
 
+# Miscellaneous
+##### Convert .mp4 video format to .webm using ffmpeg
+
+`ffmpeg -i input_file.mp4 -c:v libvpx -crf 10 -b:v 1M -c:a libvorbis output_file.webm`
