@@ -2,11 +2,14 @@
 
 - Download `live555MediaServer` from the link in the description below and keep it inside 'videos' directory.
 - Run media server. 
-    - If you are on Linux, follow the steps below
-    `$ cd RTSP-with-OpenCV/`
-    `$ chmod +x ./videos/live555MediaServer`
-    `$ ./videos/live555MediaServer`
-    - this will generate a rtsp link (via local system IP)
+    - If you are on Linux, follow the steps below:
+```
+$ cd RTSP-with-OpenCV/
+$ chmod +x ./videos/live555MediaServer
+$ ./videos/live555MediaServer
+```
+
+- this will generate a rtsp link (via local system IP)
 - Copy the link generated above and paste it in place of <rtsp-url> in the rtsp_poc.py code[line number 10]
 - Run the code from another terminal: 
 `$ python rtsp_poc.py`
